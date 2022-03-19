@@ -12,6 +12,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="./js/main.js" defer></script>
 </head>
 
@@ -53,7 +54,7 @@
                     </p>
                     <a href="#"><span>Get Started</span></a>
                 </div>
-                <div class="hero__image">
+                <div class="hero__image" data-aos="fade-up" data-aos-duration="1000">
                     <img src="./image/hero-image.svg" alt="Imagen de la Empresa">
                 </div>
             </div>
@@ -74,7 +75,7 @@
                         <li class="feature__text--item"><span>No specific time limits.</span></li>
                     </ul>
                 </div>
-                <div class="feature__image">
+                <div class="feature__image" data-aos="fade-right" data-aos-duration="2500">
                     <img src="./image/feature-img.svg" alt="Person using a laptop">
                 </div>
             </div>
@@ -92,7 +93,8 @@
                 </div>
 
                 <div class="plan__cards">
-                    <div class="plan__card">
+
+                    <div class="plan__card" data-aos="flip-left" data-aos-duration="500">
                         <img src="./image/free.svg" alt="Free gift">
                         <h3 class="plan__card--h3">Free Plan</h3>
                         <ul class="plan__card--list">
@@ -105,7 +107,7 @@
                         <a href="#"><span>Select</span></a>
                     </div>
 
-                    <div class="plan__card">
+                    <div class="plan__card" data-aos="flip-left" data-aos-duration="1500">
                         <img src="./image/standard.svg" alt="Free gift">
                         <h3 class="plan__card--h3">Standard Plan</h3>
                         <ul class="plan__card--list">
@@ -119,7 +121,7 @@
                         <a href="#"><span>Select</span></a>
                     </div>
 
-                    <div class="plan__card">
+                    <div class="plan__card" data-aos="flip-left" data-aos-duration="2500">
                         <img src="./image/premium.svg" alt="Free gift">
                         <h3 class="plan__card--h3">Premium Plan</h3>
                         <ul class="plan__card--list">
@@ -159,7 +161,7 @@
                 </p>
 
                 <div class="customer__cards">
-                    <div class="customer__card">
+                    <div class="customer__card" data-aos="flip-right" data-aos-duration="500">
                         <div class="card__up">
                             <img src="./image/customer1.png" alt="Customer 1">
                             <p>Viezh Robert <br> <span>Warsaw, Poland</span></p>
@@ -171,7 +173,7 @@
                         </p>
                     </div>
 
-                    <div class="customer__card">
+                    <div class="customer__card" data-aos="flip-right" data-aos-duration="1500">
                         <div class="card__up">
                             <img src="./image/customer2.png" alt="Customer 1">
                             <p>Yessica Christy <br> <span>Shanxi, China</span></p>
@@ -181,7 +183,7 @@
                             “I like it because I like to travel far and still can connect with high speed.”.</p>
                     </div>
 
-                    <div class="customer__card">
+                    <div class="customer__card" data-aos="flip-right" data-aos-duration="2500">
                         <div class="card__up">
                             <img src="./image/customer3.png" alt="Customer 1">
                             <p>Kim Young Jou <br> <span>Seoul, South Korea</span></p>
@@ -253,7 +255,10 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

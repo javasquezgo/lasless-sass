@@ -1,5 +1,6 @@
 let btnResponsive = document.querySelector(".header__head i");
 let plans = document.querySelectorAll(".plan__card");
+let customers = document.querySelectorAll(".customer__card");
 
 const toggleNav = () => {
   let nav = document.querySelector(".header__nav");
